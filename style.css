@@ -1,0 +1,117 @@
+body {
+  background-color: #F0F0F0; 
+  margin: 0;
+  max-width: 70em;
+  margin: auto;
+}
+header, main, footer {
+  max-width: 1000px; /* 最大幅を1000pxに制限 */
+  margin: 0 auto; /* センターに配置 */
+  padding: 10px;
+}
+h1 {
+  font-family: 'Great Vibes', cursive;
+  text-align: center;
+}
+h2 {
+  font-family: 'Cinzel Decorative', cursive;
+}
+h3 {
+  font-family: 'Great Vibes', cursive;
+}
+header ul {
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+  list-style-type: none;
+}
+header ul {
+  background-color: #F0F0F0;
+}
+li {
+  font-family: 'Cinzel Decorative', cursive;
+}
+header li {
+  font-size: 1.5em;
+  display: inline;
+  line-height: 55px;
+}
+header li a{
+  text-decoration: none;
+  color: #4F4F4F;
+  padding: 20px 20px;
+}
+header li a:hover {
+  background-color: #F0F0F0;
+  color: #723649;
+  border: 2px solid #723649; /* ボックスの枠線の太さ、スタイル、色 */
+  border-radius: 15px;
+}
+nav {
+  margin: 0;
+}
+.intro {
+  text-align: center;
+}
+.intro a {
+  font-size: 20px;
+}
+img {
+  display: block;
+  max-width: 60%;
+}
+.center {
+  text-align: center;
+}
+.image-container img {
+  margin-top: 30px;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-left: auto;
+  height: auto;
+  padding: 20px;
+  box-shadow: 10px 10px 20px #00000080;
+  border-radius: 10px;
+  background-color: #723649;
+}
+.next_chapter {
+  margin-top: 50px;
+  text-align: right;
+}
+footer {
+  text-align: center;
+  max-width: 60%;
+  margin: auto;
+}
+footer h2 {
+  text-align: left;
+}
+.container h3 {
+  text-align: left;
+  font-size: 20px;
+}
+.pre-wrap {
+  white-space: pre-wrap;
+}
+.float-left {
+  float: left;
+  font-size: 20px;
+  max-width: 20em;
+}
+.float-left ul {
+  text-align: left;
+  list-style-type: none;
+}
+.float-left li {
+  line-height: 2.0em;
+}
+.float-right {
+  float: right;
+  max-width: 20em;
+}
+.float-right ul {
+  text-align: left;
+}
+.float-right ul li {
+  margin-bottom: 10px;
+}
